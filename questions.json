@@ -1,0 +1,785 @@
+{
+  "questions": [
+    {
+      "category": "1",
+      "image": "1.jpg",
+      "answer": "אריתרוציטים",
+      "text": "what am i?"
+    },
+    {
+      "category": "1",
+      "image": "2.jpg",
+      "answer": "אריתרוציטים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "1",
+      "image": "3.jpg",
+      "answer": "ניוטרופילים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "1",
+      "image": "4.jpg",
+      "answer": "אאוזנופילים",
+      "text": "what am i?"
+    },
+    {
+      "category": "1",
+      "image": "5.jpg",
+      "answer": "בזופילים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "1",
+      "image": "6.jpg",
+      "answer": "לימפוציטים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "1",
+      "image": "7.jpg",
+      "answer": "מונוציטים",
+      "text": "what am i?"
+    },
+    {
+      "category": "1",
+      "image": "8.png",
+      "answer": "מח עצם תקין",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "1",
+      "image": "9.png",
+      "answer": "ניוטרופילים",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "9.png",
+      "answer": "מונוציטים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "10.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "10.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "10.png",
+      "answer": "ניוטרופילים",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "1",
+      "image": "10.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 4?"
+
+    },
+    {
+      "category": "1",
+      "image": "11.png",
+      "answer": "ניוטרופילים",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "11.png",
+      "answer": "אאוזנופילים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "12.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "12.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "13.png",
+      "answer": "טסיות",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "13.png",
+      "answer": "לימפוציטים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "13.png",
+      "answer": "ניוטרופילים",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "1",
+      "image": "13.png",
+      "answer": "בזופילים",
+      "text": "what is no. 4?"
+
+    },
+    {
+      "category": "1",
+      "image": "14.png",
+      "answer": "מונוציטים",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "1",
+      "image": "14.png",
+      "answer": "ניוטרופילים",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "1",
+      "image": "14.png",
+      "answer": "מונוציטים",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "1",
+      "image": "15.png",
+      "answer": "משטח דם",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "2",
+      "image": "16.png",
+      "answer": "טוניקה אדוונטיציה",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "2",
+      "image": "16.png",
+      "answer": "טוניקה מדיה",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "2",
+      "image": "16.png",
+      "answer": "טוניקה אינטימה",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "2",
+      "image": "17.jpg",
+      "answer": "עורק",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "2",
+      "image": "18.jpg",
+      "answer": "וריד",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "2",
+      "image": "19.png",
+      "answer": "וריד",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "2",
+      "image": "19.png",
+      "answer": "עורק",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "2",
+      "image": "20.png",
+      "answer": "לומן",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "2",
+      "image": "20.png",
+      "answer": "טוניקה אינטימה",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "2",
+      "image": "20.png",
+      "answer": "טוניקה מדיה",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "2",
+      "image": "20.png",
+      "answer": "טוניקה אדוונטיציה",
+      "text": "what is no. 4?"
+
+    },
+    {
+      "category": "2",
+      "image": "21.png",
+      "answer": "לומן",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "2",
+      "image": "21.png",
+      "answer": "טוניקה אינטימה",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "2",
+      "image": "21.png",
+      "answer": "טוניקה מדיה",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "2",
+      "image": "21.png",
+      "answer": "טוניקה אדוונטיציה",
+      "text": "what is no. 4?"
+
+    },
+    {
+      "category": "2",
+      "image": "21.png",
+      "answer": "ואזה וזורום",
+      "text": "what is no. 5?"
+
+    },
+    {
+      "category": "3",
+      "image": "22.png",
+      "answer": "גלמרולוס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "40.jpg",
+      "answer": "עורקיק נכנס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "41.jpg",
+      "answer": "פירמידה רנלית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "42.jpg",
+      "answer": "מקולה דנסה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "43.jpg",
+      "answer": "שכבה ויסצרלית של קופסית באומן",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "44.jpg",
+      "answer": "קרן מדולרית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "45.jpg",
+      "answer": "פודוציטים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "46.jpg",
+      "answer": "עורקים בין אונתיים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "47.jpg",
+      "answer": "אבובית מפותלת דיסטלית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "48.jpg",
+      "answer": "גלמרולוס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "40.jpg",
+      "answer": "עורקיק נכנס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "41.jpg",
+      "answer": "פירמידה רנלית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "42.jpg",
+      "answer": "מקולה דנסה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "43.jpg",
+      "answer": "שכבה ויסצרלית של קופסית באומן",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "44.jpg",
+      "answer": "קרן מדולרית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "45.jpg",
+      "answer": "פודוציטים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "46.jpg",
+      "answer": "עורקים בין אונתיים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "47.jpg",
+      "answer": "אבובית מפותלת דיסטלית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "3",
+      "image": "48.jpg",
+      "answer": "גלמרולוס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "4",
+      "image": "23.png",
+      "answer": "דרמיס",
+      "text": "what is no. 1?"
+
+    },
+    {
+      "category": "4",
+      "image": "23.png",
+      "answer": "אפידרמיס",
+      "text": "what is no. 2?"
+
+    },
+    {
+      "category": "4",
+      "image": "23.png",
+      "answer": "בלוטות זיעה",
+      "text": "what is no. 3?"
+
+    },
+    {
+      "category": "5",
+      "image": "24.jpg",
+      "answer": "שלוחות אוסטאוציטיות",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "5",
+      "image": "25.jpg",
+      "answer": "סחוס היאליני",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "5",
+      "image": "26.jpg",
+      "answer": "אוסטאובלסט פעיל",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "5",
+      "image": "27.jpg",
+      "answer": "אזור דגנרציה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "5",
+      "image": "28.jpg",
+      "answer": "תעלות ספיגה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "6",
+      "image": "29.jpg",
+      "answer": "קשריות לימפה שניוניות",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "6",
+      "image": "30.jpg",
+      "answer": "מרכז נבט",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "31.jpg",
+      "answer": "אקסון",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "32.jpg",
+      "answer": "תאי שוואן לוויניים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "33.jpg",
+      "answer": "אסטרוציטים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "34.jpg",
+      "answer": "גופיפי ניסל",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "35.jpg",
+      "answer": "פרינריום",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "36.jpg",
+      "answer": "גופיף מייסנר",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "37.jpg",
+      "answer": "גנגליון אוטונומי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "38.jpg",
+      "answer": "נוירון מולטיפולרי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "7",
+      "image": "39.jpg",
+      "answer": "נוירון פסואודוניוניפולרי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "49.jpg",
+      "answer": "שריר משורטט",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "50.jpg",
+      "answer": "שריר חלק",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "51.jpg",
+      "answer": "שריר משורטט",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "52.jpg",
+      "answer": "שריר חלק",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "53.jpg",
+      "answer": "קווי A",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "54.jpg",
+      "answer": "שריר משורטט",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "55.jpg",
+      "answer": "שריר לב",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "56.jpg",
+      "answer": "שריר לב",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "57.jpg",
+      "answer": "מיופיבריל",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "8",
+      "image": "58.jpg",
+      "answer": "אנדומיסיום",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "59.jpg",
+      "answer": "זונה רטיקולריס",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "60.jpg",
+      "answer": "פאראתיירואיד",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "61.jpg",
+      "answer": "מדולת האדרנל",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "62.jpg",
+      "answer": "זקיקים תיירואידים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "63.jpg",
+      "answer": "זונה גלומרולוסה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "64.jpg",
+      "answer": "נימים",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "9",
+      "image": "65.jpg",
+      "answer": "אנדומטריום",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "66.jpg",
+      "answer": "זקיק ראשוני",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "67.jpg",
+      "answer": "רחם בוסת",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "68.jpg",
+      "answer": "חלל אנטרלי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "69.jpg",
+      "answer": "זקיק ראשוני",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "70.jpg",
+      "answer": "רחם פרוליפרטיבי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "71.jpg",
+      "answer": "שד מניק",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "72.jpg",
+      "answer": "גופיף צהוב",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "73.jpg",
+      "answer": "ביצית ראשונית",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "74.jpg",
+      "answer": "חצוצרה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "75.jpg",
+      "answer": "רחם איסכמי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "76.jpg",
+      "answer": "רחם הפרשתי",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "77.jpg",
+      "answer": "פתח חיצוני של צוואר הרחם",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "78.jpg",
+      "answer": "וגינה",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "79.jpg",
+      "answer": "צוואר הרחם",
+      "text": "what am i?"
+
+    },
+    {
+      "category": "10",
+      "image": "80.jpg",
+      "answer": "שד בזמן הריון",
+      "text": "what am i?"
+
+    }
+  ]
+}

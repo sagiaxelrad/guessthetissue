@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+AppPackages/
+TestResults/
+
+# Rider IDE
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+.nuget/
+
+# Resharper
+_ReSharper*/
+*.ReSharper
+
+# DotCover
+*.dotCover
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.log
+*.vsix
+*.cache
+*.dbmdl
+*.pdb
+*.mdb
+
+# Publish output
+*.Publish.xml

@@ -1,0 +1,53 @@
+﻿@{
+    var q = ViewBag.Question;
+    var choices = ViewBag.Choices as List<string>;
+    int id = ViewBag.Id;
+    int total = ViewBag.Total;
+}
+
+<div class="text-center">
+
+    <h3>Question @(id + 1) / @total</h3>
+
+    <h2>@q.question</h2>
+
+    <br>
+
+    <img src="@q.image" width="400" />
+
+    <br><br>
+
+    <form method="post" action="/Quiz/Answer">
+
+        @foreach (var choice in choices)
+        {
+            <button type="submit"
+                    name="selectedAnswer"
+                    value="@choice"
+                    style="display:block;margin:10px auto;width:220px;height:45px;">
+                @choice
+            </button>
+        }
+
+        <input type="hidden" name="correctAnswer" value="@q.answer" />
+        <input type="hidden" name="id" value="@id" />
+
+    </form>
+
+    <br><br>
+
+    <form method="get" action="/Quiz/Question">
+
+        <label>Jump to question:</label>
+
+        <input type="number"
+               name="id"
+               min="1"
+               max="@total"
+               style="width:80px;margin-left:10px;" />
+
+        <button type="submit">Go</button>
+
+    </form>
+
+</div>
