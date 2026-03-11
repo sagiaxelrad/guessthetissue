@@ -1,16 +1,20 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace gtt.Controllers
 {
     public class Question
     {
+        [JsonPropertyName("text")]
         public string question { get; set; }
+
         public string image { get; set; }
         public string category { get; set; }
         public string answer { get; set; }
 
-        public Question() 
-        { }
+        public Question()
+        {
+        }
 
         public Question(string question, string image, string category, string answer)
         {
@@ -33,8 +37,7 @@ namespace gtt.Controllers
                 return;
             }
 
-            string jsonString = File.ReadAllText(filePath
-                );
+            string jsonString = File.ReadAllText(filePath);
 
             var options = new JsonSerializerOptions
             {
@@ -46,9 +49,14 @@ namespace gtt.Controllers
             >(jsonString, options);
 
             Questions = root?["questions"] ?? new List<Question>();
+
+            // Fix image paths
             foreach (var q in Questions)
             {
-                q.image = "/Images/" + q.image;
+                if (!string.IsNullOrEmpty(q.image))
+                {
+                    q.image = "/Images/" + q.image;
+                }
             }
         }
     }
