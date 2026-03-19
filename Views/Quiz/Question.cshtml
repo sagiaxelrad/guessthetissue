@@ -1,53 +1,135 @@
-﻿@{
+﻿<style>
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 26px;
+    }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .3s;
+        border-radius: 26px;
+    }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s;
+            border-radius: 50%;
+        }
+
+    input:checked + .slider {
+        background-color: #2196F3;
+    }
+
+        input:checked + .slider:before {
+            transform: translateX(24px);
+        }
+</style>
+
+@{
     var q = ViewBag.Question;
     var choices = ViewBag.Choices as List<string>;
-    int id = ViewBag.Id;
+    int pos = ViewBag.Pos;
+    int realIndex = ViewBag.RealIndex;
     int total = ViewBag.Total;
+    bool random = ViewBag.RandomMode;
 }
 
+<div style="display:flex;justify-content:flex-end;align-items:center;margin-bottom:15px;gap:10px;">
+    <span>Ordered</span>
+    <form method="get" action="/Quiz/Question" id="toggleForm">
+        <input type="hidden" name="real" value="@(realIndex + 1)" />
+        <input type="hidden" name="random" id="toggleRandom" value="@(random ? "true" : "false")" />
+        <input type="hidden" name="orderedPos" id="toggleOrderedPos" value="" />
+        <label class="switch">
+            <input type="checkbox"
+                   id="randomCheckbox"
+            @(random ? "checked" : "")
+                   onchange="submitToggle(this.checked)">
+            <span class="slider"></span>
+        </label>
+    </form>
+    <span>Random</span>
+</div>
+
 <div class="text-center">
-
-    <h3>Question @(id + 1) / @total</h3>
-    <br--></br-->
+    <h4>Question @(realIndex + 1) / @total</h4>
+    <br />
     <h2>@q.question</h2>
-
     <br>
-
     <img src="@q.image" width="400" />
-
     <br><br>
 
     <form method="post" action="/Quiz/Answer">
-
         @foreach (var choice in choices)
         {
             <button type="submit"
                     name="selectedAnswer"
                     value="@choice"
-                    style="display:block;margin:10px auto;width:220px;height:45px;">
+                    style="display:block;margin:10px auto;width:200px;height:40px;">
                 @choice
             </button>
         }
-
         <input type="hidden" name="correctAnswer" value="@q.answer" />
-        <input type="hidden" name="id" value="@id" />
-
+        <input type="hidden" name="pos" value="@pos" />
+        <input type="hidden" name="random" value="@(random ? "true" : "false")" />
     </form>
 
     <br><br>
-
     <form method="get" action="/Quiz/Question">
-
         <label>Jump to question:</label>
-
         <input type="number"
-               name="id"
+               name="real"
                min="1"
                max="@total"
-               style="width:80px;margin-left:10px;" />
-
+               style="width:80px;margin-left:10px;"
+               placeholder="@(realIndex + 1)" />
+        <input type="hidden" name="random" value="@(random ? "true" : "false")" />
         <button type="submit">Go</button>
-
     </form>
-
 </div>
+
+<script>
+    var isRandom = @(random ? "true" : "false");
+    var currentPos = @pos;
+
+    // If we're in ordered mode, save our position
+    if (!isRandom) {
+        sessionStorage.setItem('orderedPos', currentPos);
+    }
+
+    function submitToggle(turningOnRandom) {
+        var form = document.getElementById('toggleForm');
+        document.getElementById('toggleRandom').value = turningOnRandom ? 'true' : 'false';
+
+        if (turningOnRandom) {
+            // switching to random — just pass real, let controller find it in shuffle
+            document.getElementById('toggleOrderedPos').value = '';
+        } else {
+            // switching to ordered — restore saved ordered position
+            var saved = sessionStorage.getItem('orderedPos') || '1';
+            document.getElementById('toggleOrderedPos').value = saved;
+        }
+
+        form.submit();
+    }
+</script>

@@ -1,13 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Answer";
 }
-
 <div class="text-center">
-
     <h1 class="display-4">Answer</h1>
-
     <br />
-
     @if (ViewBag.Correct)
     {
         <h2 style="color:green;">Correct!</h2>
@@ -18,15 +14,11 @@
         <p>The correct answer was:</p>
         <h3>@ViewBag.CorrectAnswer</h3>
     }
-
     <br /><br />
-
-    <a href="/Quiz/Question?id=@ViewBag.NextId" class="btn btn-primary btn-lg">
+    <a href="/Quiz/Question?pos=@(ViewBag.Pos + 1)&random=@(ViewBag.RandomMode ? "true" : "false")"
+       class="btn btn-primary">
         Next Question
     </a>
-
 </div>
-
 <br />
 <br />
-
